@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/SignUp Page</title>
+    <link rel="stylesheet" href="Login-style.css">
+</head>
+<body>
+
+    <!-- JavaScript Code
+    <script>
+        console.log("Login-Signup Page");
+        // Function to check if the user is already logged in or not
+        function validateUser() {
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200);
+        }
+    }
+    </script> -->
+    <script src="Login/SignUp-script.js"></script>
+
+    <!-- Login/SignUp Container -->
+    <div class="login-signup-container">
+        <!-- Login Section -->
+        <div class="Login-section">
+        <form>
+            <h2>Login</h2>
+            <!-- <input type="Full Name" placeholder="Full Name" required> -->
+            <input type="email" placeholder="email" required>
+            <input type="password" placeholder="password" required>
+            <button type="submit" id="login-btn"><a href="#">Log In</a></button>
+        </form>
+    </div>
+    <!-- Sign Up Section -->
+        <div class="Signup-section">
+        <form>
+            <h2>SignUp</h2>
+            <input type="Full Name" placeholder="Full Name" required>
+            <input type="email" placeholder="email" required>
+            <input type="password" placeholder="password" required>
+            <button type="submit" class="signup-btn"><a href="#">SignUp</a></button>
+        </form>
+    </div>
+    </div>
+</body>
+</html>
